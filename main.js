@@ -1,13 +1,6 @@
 let myImage = document.querySelector("img");
 
-myImage.onclick = function () {
-  mySrc = myImage.getAttribute("src");
-  if (mySrc === "Re-zero.jpg") {
-    myImage.setAttribute("src", "Gang.jpg");
-  } else {
-    myImage.setAttribute("src", "Re-zero.jpg");
-  }
-};
+
 
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
